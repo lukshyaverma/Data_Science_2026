@@ -13,6 +13,8 @@ Datasets
 Both the datasets have different set of features and therefore cannot be combined. We shall use the dataset from Kaggle since it has more data and features.
 Loaded csv data onto MySQL.
 Defined appropriate data types and rearraged columns. 
+Created unique identifers for customers and merchants.
+Took a distinct count of each feature to understand how to go about a pivot table analysis.
 
 19/06/2026 (to-do)
 
