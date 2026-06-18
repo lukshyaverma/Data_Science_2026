@@ -14,17 +14,17 @@ create table main_data(
 	gender varchar(1),
 	street varchar(50),
 	city varchar(50),
-	state varchar(20),
+	state varchar(2),
 	zip bigint,
-	lat decimal,
-	lon decimal,
+	lat decimal(10,4),
+	lon decimal(10,4),
 	city_pop bigint,
 	job varchar(100),
 	dob varchar(20),
 	trans_num varchar(50),
 	unix_time bigint,
-	merch_lat decimal,
-	merch_long decimal,
+	merch_lat decimal(10,4),
+	merch_long decimal(10,4),
 	fraud_ind int
 );
 
