@@ -11,10 +11,11 @@ Datasets
     c. Fraud Rate - 39 bps (2145)
 
 Both the datasets have different set of features and therefore cannot be combined. We shall use the dataset from Kaggle since it has more data and features.
+Loaded csv data onto MySQL.
+Defined appropriate data types and rearraged columns. 
 
 19/06/2026 (to-do)
 
-Load csv into MYsql
 Create features
 Determine basic charactericts and fraud stats across segments
 Try doing the same thing in python.
