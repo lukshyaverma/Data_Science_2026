@@ -30,6 +30,7 @@ create table main_data as select
 	last_name,
 	gender,
 	dob,
+    TIMESTAMPDIFF(YEAR, dob, CURDATE()) AS age,
 	job,
 	street,
 	city,
