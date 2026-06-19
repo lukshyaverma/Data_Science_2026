@@ -37,3 +37,6 @@ create table main_data_01 as
         merch_long,
         fraud_ind
     from main_data;
+
+drop table main_data;
+alter table main_data_01 rename to main_data;
