@@ -1,6 +1,5 @@
 describe main_data;
 
-
 select 
     count(distinct txn_key) as txn_key_dist,
     count(distinct trans_date_trans_time) as trans_date_trans_time_dist,
