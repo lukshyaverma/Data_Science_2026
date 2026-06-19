@@ -31,12 +31,14 @@ Pivot table observations
   a. high variation across merchant category - category fraud to gross
   b. fraud concentrated in gt_1000 bucket - amount as a segment variable
   c. fraud rate higher for gt_60 age bucket - age as a segment variable
-  d. no significant diffferences in fraud rate across genders
-  e. variation seen across states - state as a segment variable
+  d. variation seen across states - state as a segment variable
+  e. no significant diffferences in fraud rate across genders
+  f. no significant differences in fraud rate across cm_merch_distance
+  g. cities and zips with 100% fraud but those are one of events
 
-
-Other
+22/06/2026 (To-Do)
 
 Create features
+CM level case pull
 Determine basic charactericts and fraud stats across segments from the pivot table.
 Try doing the same thing in python.
