@@ -37,4 +37,4 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
-select * from main_data limit 5;
+select * from main_data limit 10;
