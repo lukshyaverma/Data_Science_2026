@@ -40,3 +40,5 @@ create table main_data_01 as
 
 drop table main_data;
 alter table main_data_01 rename to main_data;
+
+select * from main_data limit 10;
