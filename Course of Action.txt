@@ -1,4 +1,4 @@
-18/06/2026
+Day 1
 
 Datasets
   1. Datacamp
@@ -17,7 +17,7 @@ Created unique identifers for customers and merchants.
 Took a distinct count of each feature to understand how to go about a pivot table analysis.
 Created segment buckets for pivot table.
 
-19/06/2026
+Day 2
 
 Extra variables created
   1. trans_dt (SUBSTRING_INDEX, STR_TO_DATE)
@@ -36,7 +36,7 @@ Pivot table observations
   f. no significant differences in fraud rate across cm_merch_distance
   g. cities and zips with 100% fraud but those are one of events
 
-22/06/2026 (To-Do)
+(To-Do)
 
 Create features
 CM level case pull
