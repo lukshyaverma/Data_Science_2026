@@ -46,3 +46,5 @@ create table main_data as select
 	merch_long,
 	fraud_ind
 from main_data_01;
+
+select * from main_data limit 10;
