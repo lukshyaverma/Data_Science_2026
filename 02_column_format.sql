@@ -71,3 +71,5 @@ drop table main_data;
 alter table main_data_02 rename to main_data;
 
 describe main_data;
+
+select * from main_data limit 10;
